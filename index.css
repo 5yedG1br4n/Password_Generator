@@ -1,82 +1,91 @@
 body {
   margin: 0;
-  background: black;
+  font-family: "Inter", sans-serif;
+  font-family: "Karla", sans-serif;
+  background: #273549;
 }
 
 .main-container {
-  margin: 64px auto;
   width: 550px;
   height: 550px;
   background: #1f2937;
-  padding-top: 115px;
+  margin: 30px auto;
+  padding: 1px;
 }
 
 #hero-title {
   width: 354px;
   height: 80px;
-  margin-left: 52px;
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla";
+  font-style: normal;
   font-weight: 800;
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.025em;
-  color: #FFFFFF;
+  color: #ffffff;
+  margin: 114px 143px 10px 51px;
 }
 
 #title-span {
-  display: block;
-  color: #4ADF86;
+  color: #4adf86;
 }
 
 #hero-para {
   width: 372px;
   height: 28px;
-  margin-left: 52px;
-  margin-top: 10px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter";
+  font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  color: #D5D4D8;
+  color: #d5d4d8;
+  margin: 0 125px 51px 52px;
 }
 
 #generate-btn {
-  cursor: pointer;
-  padding: 9px 17px;
+  padding: 9px 17px 9px 15px;
   width: 191px;
   height: 42px;
-  margin-left: 52px;
-  margin-top: 50px;
-  background-color: #10B981;
-  border: none;
+  background: #10b981;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
-  font-family: 'Inter', sans-serif;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
+  margin: 0px 306px 35px 51px;
+  cursor: pointer;
+}
+
+#line {
+  width: 446px;
+  height: 0px;
+  border: 1px solid #2f3e53;
+  margin: 35px 51px;
 }
 
 #label-container {
   width: 446px;
-  border-top: 1px solid #2F3E53;
-  margin-top: 35px;
-  margin-left: 52px;
   display: flex;
   justify-content: space-between;
+  margin: 35px 51px 114px;
 }
 
 .password-label {
-  background-color: #273549;
-  width: 180px;
+  width: 211px;
   height: 39px;
-  margin-top: 35px;
+  background: #273549;
   border-radius: 6px;
-  text-align: center;
-  font-family: 'Inter', sans-serif;
-  color: #55F991;
+  font-family: "Inter";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 32px;
-  padding: 5px 9px 2px 10px;
+  text-align: center;
+  color: #55f991;
+  padding: 4px 16px;
+  box-sizing: border-box;
 }
